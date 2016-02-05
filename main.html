@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/main.css">
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display|Josefin+Sans' rel='stylesheet' type='text/css'>
+
+	<meta charset="UTF-8">
+	<title>Shopping List</title>
+</head>
+<body>
+<div class='container'>
+ <div class='heading'>
+	<img class='logo' src="images/shoppinglistlogo.png">
+	<h1>Shopping List</h1>
+	<h2>#shoppingnofuss</h2>
+	<hr>
+ </div>
+ <button name="clean" id="startover" class="resetbutton">Reset Here
+ </button>
+
+ <div class='inputarea'>
+  <input id='input' type="text" autocomplete="off" placeholder="+ Add Item">
+  <div class='listarea'>
+   <ul class='listing'>
+   	<li>
+   		<div class="undone">
+   		<span class="delete"></span>
+   		<span>&nbsp;&nbsp;Avocado&nbsp;&nbsp;</span>
+   		<span class="crossoff"></span>
+   		</div>
+   	</li>
+   	<li>
+   		<div class="undone">
+   	    <span class="delete"></span>
+   		<span>&nbsp;&nbsp;Lemon&nbsp;&nbsp;</span>
+   		<span class="crossoff"></span>
+   		</div>	
+   	</li>
+   	<li>
+   		<div class="undone">
+   	    <span class="delete"></span>
+   		<span>&nbsp;&nbsp;Wine&nbsp;&nbsp;</span>
+   		<span class="crossoff"></span>
+   		</div>	
+   	</li>
+   	<li>
+   		<div class="done">
+   	    <span class="delete"></span>
+   		<span>&nbsp;&nbsp;Toast&nbsp;&nbsp;</span>
+   		<span class="crossoff"></span>
+   		</div>	
+   	</li>
+   	<li>
+   		<div class="done">
+   	    <span class="delete"></span>
+   		<span>&nbsp;&nbsp;Kale&nbsp;&nbsp;</span>
+   		<span class="crossoff"></span>
+   		</div>	
+   	</li>
+
+   </ul>
+  </div>
+ </div>
+
+ <div class='footing'>
+ </div>
+ <script type="text/javascript" src="js/app.js"></script>
+</div>	
+</body>
+</html>

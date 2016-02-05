@@ -1,0 +1,109 @@
+body {
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	font-size: 18px;
+	background: #fff
+}
+
+.resetbutton {
+	width: 6rem;
+	height: 2rem;
+	background-color: #3CD5DD;
+	border-color: #3CD5DD;
+	border-radius: 5px;
+	color: white;
+	font-size: 0.85rem;
+	border: none;
+	margin-top: 15px;
+
+}
+.resetbutton:hover {
+	background-color: #3CB8DD;
+}
+
+h1 {
+	margin-top: -.05em;
+	font-weight: bolder;
+}
+
+h2 {
+	font-size: 16px;
+	margin-top: -1em;
+}
+
+#input {
+	text-align: center;
+	color: #fff;
+	background-color: white;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 15px;	
+	width: 500px;
+	height: 30px;
+	margin: 20px auto;
+	display: inline-block;
+	font-size: 13px;
+}
+
+.listing {
+	text-align: left;
+	margin-top: 0;
+	list-style: none;
+	padding-left: 0;
+}
+ 
+.listing li {
+
+	cursor: pointer;
+}
+
+
+
+
+
+.footing {
+	height: 130px;
+	background-color: #F2F2F2;
+	margin-top: 20px;
+}
+
+.inputarea {
+	overflow: hidden;
+}
+
+.heading {
+	overflow: auto;
+}
+
+.delete {
+	height: 30px;
+	width: 30px;
+	float: right;
+	background-image: url('images/delete.png') !important;
+}
+
+
+
+ul li {
+	text-align: center;
+	color: #fff;
+	background-color: #3CD5DD;
+	border:none;
+	border-radius: 15px;	
+	width: 500px;
+	height: 30px;
+	margin: 20px auto;
+	font-size: 15px;
+}
+
+ul {
+	display: inline-block;
+}
+
+.done {
+	text-decoration: line-through;
+}
+
+
+
