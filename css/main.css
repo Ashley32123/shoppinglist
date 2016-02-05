@@ -53,10 +53,6 @@ h2 {
 	padding-left: 0;
 }
  
-.listing li {
-
-	cursor: pointer;
-}
 
 
 
@@ -76,13 +72,6 @@ h2 {
 	overflow: auto;
 }
 
-.delete {
-	height: 30px;
-	width: 30px;
-	float: right;
-	background-image: url('images/delete.png') !important;
-}
-
 
 
 ul li {
@@ -95,6 +84,16 @@ ul li {
 	height: 30px;
 	margin: 20px auto;
 	font-size: 15px;
+}
+
+li .delete {
+	background-image: url('images/delete.png');
+	background-repeat: no-repeat;
+    background-size: 100%;    
+    float: right;
+    height: 30px;
+	width: 30px;
+	cursor: pointer;
 }
 
 ul {
